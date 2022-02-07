@@ -1,0 +1,40 @@
+h1{
+    color: blue;
+    background-color: yellow;
+    
+}
+
+h2{
+    background-color: turquoise;
+    color: tomato;
+}
+
+table{
+    text-decoration: darkblue;
+    background-color: rgb(0, 255, 234);
+    text-align: center;
+    color: purple;
+
+
+}
+caption{
+    text-align: center;
+    color: springgreen;
+    background-color: tan;
+}
+
+p{
+    background-color: lightgreen;
+    text-align: justify;
+    color: slategrey;
+
+
+}
+img{
+    width: 50%;
+    background-color: darkgoldenrod;
+
+}
+body{
+    background-color: bisque;
+}

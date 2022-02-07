@@ -1,0 +1,155 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+.wrapper {
+    display: flex;
+    flex-flow: row wrap;
+    text-align: center;
+}
+
+.wrapper>* {
+    padding: 10px;
+    margin: 10px;
+    flex: 1 100%;
+    border-radius: 11px;
+}
+
+.header {
+    background: crimson;
+    height: 111px;
+    flex: 1 100%;
+}
+
+.header h1 {
+    margin-top: 9px;
+    padding-bottom: 9px;
+}
+
+.logo {
+    float: left;
+    width: 44px;
+    height: 33px;
+    margin-right: 8px;
+}
+
+.insta {
+    float: right;
+    margin-left: 8px;
+}
+
+.footer {
+    background: rgb(2, 49, 2);
+    height: 82px;
+    flex: 1 100%;
+    color: khaki;
+}
+
+.footer h2 {
+    padding-bottom: 9px;
+}
+
+.footer p {
+    color: ghostwhite;
+    display: inline;
+    border-top: 2px solid goldenrod;
+    margin-right: 22px;
+}
+
+.main {
+    text-align: left;
+    background: lightcoral;
+    font-size: 24px;
+    border-right: 2px solid brown;
+}
+
+.image {
+    height: 80px;
+    width: 100px;
+    /*object-fit: cover;*/
+    /*object-position: 100% 0;*/
+    padding-bottom: 91px;
+}
+
+.aside1 {
+    background: lightgreen;
+    border-right: 2px solid darkgreen;
+}
+
+.aside2 {
+    background: rgb(173, 145, 20);
+    border-right: 2px solid darkblue;
+}
+
+
+/*
+@media all and(min-width:800px){
+.mian{
+    float: 3;
+}
+.aside1{
+    order: 1;
+}
+.aside2{
+    order: 2;
+}
+.mian{
+    order: 2;
+}
+.footer{
+    order: 4;
+} 
+} */
+
+@media screen and (max-width:800px) {
+    .navbar,
+    .wrapper {
+        flex-direction: column;
+    }
+}
+
+
+/*
+@media all and(min-width:600px){
+    .aside{
+        flex: 1;
+    }
+}
+
+@media all and(min-width:800px){
+    .aside{
+        flex: 2;
+    }
+} */
+
+
+/* 
+ul li{
+    list-style: none;
+    display: inline-block; 
+}*/
+
+.navbar {
+    display: flex;
+    background: black;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.navbar a {
+    text-decoration: none;
+    display: flex;
+    font-family: Arial;
+    font-weight: bold;
+    font-style: oblique;
+    color: white;
+    text-transform: uppercase;
+    padding: 11px 22px;
+}
+
+.navbar a:hover {
+    color: crimson;
+    background: white;
+}
